@@ -1,0 +1,56 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo { grid-area: logo; }
+
+.header { 
+    grid-area: header;
+}
+
+h3 {
+    font-size: 30px;
+    padding-top: 35px;
+}
+.main { 
+    grid-area: main;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+
+.footer { 
+    grid-area: footer;
+    font-size: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'logo header header header header header'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+    font-size: 20px;
+}
+
+.grid-item {
+  background-color: rgba(52, 138, 29);
+  padding: 20px;
+    margin: 2px;
+    border-radius: 5px;
+  text-align: center;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+}
+ 
+a {
+    color: white;
+}
+
+a:hover {
+    color: darkslategrey;
+}
