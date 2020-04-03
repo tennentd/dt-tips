@@ -11,6 +11,8 @@ body {
 h3 {
     font-size: 30px;
     padding-top: 35px;
+    font-family: 'Caveat', cursive;
+    text-align: left;
 }
 .main { 
     grid-area: main;
@@ -37,7 +39,7 @@ h3 {
 .grid-item {
   background-color: rgba(52, 138, 29);
   padding: 20px;
-    margin: 2px;
+    margin: 5px;
     border-radius: 5px;
   text-align: center;
 }
