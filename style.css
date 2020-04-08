@@ -9,17 +9,16 @@ body {
 }
 
 h3 {
-    font-size: 40px;
-    padding-top: 25px;
+    font-size: 55px;
     padding-left: 30px;
-    font-family: 'Caveat', cursive;
-    color: #CA0729;
+    font-family: 'Reenie Beanie', cursive;
+    color:  rgba(52, 138, 29);
     text-align: left;
 }
 .main { 
     grid-area: main;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     padding: 10px;
 }
 
@@ -39,11 +38,11 @@ h3 {
 }
 
 .grid-item {
-  background-color: rgba(52, 138, 29);
-  padding: 20px;
+    background-color: rgba(52, 138, 29);
+    padding: 20px;
     margin: 5px;
     border-radius: 5px;
-  text-align: center;
+    text-align: center;
 }
 
 .grid-container > div {
@@ -57,4 +56,20 @@ a {
 
 a:hover {
     color: #CA0729;
+}
+
+.teams {
+    background-color: #454871;
+}
+
+.notebook {
+    background-color: #5E2080;
+}
+
+.excel {
+    background-color: #207244;
+}
+
+.ep {
+    background-color: #16234E;
 }
